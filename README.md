@@ -1,4 +1,4 @@
-# Lab03-exercises Readme file
+# Readme file
 
 ## findAllDuplicates function
 
@@ -33,3 +33,4 @@
   * Nested Loop Approach - This approach uses a selectionn search style approach, selecting an element in A and checking all elements after that element, against it. There are also checks to prevent duplicate values in the output array. This approach is O(n^2) in the best case because it will always have to loop over (nearly) all elements, for each element in A.
 
   * Set/Dictonary Solution - Contains methods are typically an O(n) task, except in the case of hashed data structures. This solution also uses the concept of a mathematical set, which doesn't allow duplicate elements. The contains operation on a hashset/map is also O(1) in most cases. Each value in A, when seen is added to a seen-list, then when we see it a second time we add it to return and to the duplicates (which are the same elements as ret, but have O(1) contains)
+
